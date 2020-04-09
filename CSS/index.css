@@ -1,0 +1,129 @@
+/*共通*/
+body{
+    font-family: "sans-serif","arial,Century","Times New Roman";
+    width: calc(100vw - (100vw - 100%)); /*レスポンシブ：横幅*/
+    height: 90vh;
+    overflow-x:hidden;
+    font-size:calc(100vw / (1920 / 22)); /*レスポンシブ：横幅1920pxに対して16pxのフォントサイズ*/
+    color: #465458;
+    background: #f7fafa url("../img/background-img.jpg"); /*花の模様の背景画像*/
+}
+
+header{
+    height: calc(100vw / (1920 / 100));
+    background-color: rgba(255,255,255,0.3);
+}
+
+footer{
+    height: calc(100vw / (1920 / 50));
+    font-size: calc(100vw / (1920 / 15));
+}
+
+ul{
+    list-style: none;
+}
+/*クリア*/
+.clear{
+    clear: both;
+}
+
+/*改行*/
+.br::before {
+    content: "\A" ;
+    white-space: pre ;
+}
+
+/*以下から、クラスごとのｃｓｓ*/
+/*黒バードのlogo画像*/
+.header-logo-button{
+    padding-left: calc(100vw / (1920 / 250));
+    padding-top: calc(100vw / (1920 / 20));
+    padding-bottom: calc(100vw / (1920 / 20));
+    display: inline-block;
+    width: calc(100vw / (1920 / 100));
+    height: calc(100vw / (1920 / 100));
+}
+
+/*ヘッダーの位置やサイズの調整、currentとhoverでカーソルあたるとcssアニメ*/
+nav{
+    display: inline-block;
+    font-size: calc(100vw / (1920 / 23));
+}
+
+nav ul li{
+    list-style: none;
+    float: left;
+    padding: 20px 30px 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #465458;
+}
+nav ul li.current a{
+    color: #465458;
+    border-bottom: #465458 2px solid;
+}
+nav ul li a:hover{
+    color: #a1538e;
+    border-bottom: #a1538e 2px solid;
+    cursor: pointer;
+}
+
+/*透明で黒いカバー*/
+.home-black-cover{
+    width:calc(100vw/(1920/1720));
+    height:90vh;
+    margin: 0 calc(100vw/(1920/100));
+    background: rgba(43,57,61,0.2);
+}
+
+/*名前と顔写真をまとめたボックスで位置調整*/
+.home-conts-name-face{
+    padding-left: calc(100vw/(1920/200));
+    padding-top: calc(100vw/(1920/100));
+}
+
+.home-conts-name ,.home-conts-face{
+    padding-right: calc(100vw/(1920/10));
+    padding-bottom: calc(100vw/(1920/50));
+}
+
+/*サイトの紹介文*/
+.home-site-introduction{
+    padding-left: calc(100vw/(1920/270));
+    line-height: normal;
+}
+
+/*背景に鳥の画像の配置*/
+.background-bird-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.background-bird-img img{
+    width: calc(100vw/(1920/1000));
+    height: calc(100vw/(1920/800));
+}
+
+/*フッター*/
+.footer-text-box{
+    padding-left: calc(100vw / (1920 / 220));
+    padding-top: calc(100vw / (1920 / 20));
+}
+
+.footer-text-box span{
+    padding-left: calc(100vw / (1920 / 30));
+    font-size: calc(100vw / (1920 / 13));
+}
+
+.footer-text-box a{
+    text-decoration: none;
+    color: #465458;
+}
+
+.footer-text-box a:hover{
+    color: #a1538e;
+    border-bottom: #a1538e 2px solid;
+    cursor: pointer;
+}
