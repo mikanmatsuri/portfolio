@@ -37,9 +37,11 @@ ul{
 /*黒バードのlogo画像*/
 .header-logo-button{
     padding-left: calc(100vw / (1920 / 250));
-    padding-top: calc(100vw / (1920 / 20));
     padding-bottom: calc(100vw / (1920 / 20));
     display: inline-block;
+}
+
+.header-logo-button a img{
     width: calc(100vw / (1920 / 100));
     height: calc(100vw / (1920 / 100));
 }
