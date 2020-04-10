@@ -4,7 +4,7 @@ body{
     width: calc(100vw - (100vw - 100%)); /*レスポンシブ：横幅*/
     height: 90vh;
     overflow-x:hidden;
-    font-size:calc(100vw / (1920 / 22)); /*レスポンシブ：横幅1920pxに対して16pxのフォントサイズ*/
+    font-size:calc(100vw / (1920 / 35)); /*レスポンシブ：横幅1920pxに対して16pxのフォントサイズ*/
     color: #465458;
     background: #f7fafa url("../img/background-img.jpg"); /*花の模様の背景画像*/
 }
@@ -85,9 +85,19 @@ nav ul li a:hover{
     padding-top: calc(100vw/(1920/100));
 }
 
-.home-conts-name ,.home-conts-face{
+.home-conts-name, .home-conts-face{
     padding-right: calc(100vw/(1920/10));
     padding-bottom: calc(100vw/(1920/50));
+}
+
+.home-conts-name{
+    width: calc(100vw/(1920/300));
+    height: calc(100vw/(1920/100));
+}
+
+.home-conts-face{
+    width: calc(100vw/(1920/100));
+    height: calc(100vw/(1920/100));
 }
 
 /*サイトの紹介文*/
