@@ -1,38 +1,55 @@
 /*スマートフォンのレスポンシブ対応*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
     /* 500pxまでの幅の場合に適応される */
     .home-conts-name{
-        width: calc(100vw/(500/200));
-        height: calc(100vw/(500/100));
+        width: calc(100vw/(480/200));
+        height: calc(100vw/(480/100));
     }
 
     .home-conts-face{
-        width: calc(100vw/(500/80));
-        height: calc(100vw/(500/80));
+        width: calc(100vw/(480/80));
+        height: calc(100vw/(480/80));
     }
 
     .site-info-text {
-        font-size: calc(100vw/(500/20));
+        margin-top: calc(100vw/(480/20));
+        font-size: calc(100vw/(480/20));
+    }
+
+    /*ピンク鳥の画像*/
+    .background-bird-img img{
+        width: calc(100vw/(480/450));
+        height: calc(100vw/(480/450));
     }
 }
 
-@media screen and (min-width:768px) and ( max-width:1024px) {
+@media screen and (min-width:600px) and ( max-width:1024px) {
     /*　for iPad 　*/
     .home-conts-name{
         width: calc(100vw/(1024/300));
         height: calc(100vw/(1024/100));
+        margin-top: 50px;
     }
 
     .home-conts-face{
         width: calc(100vw/(1024/100));
         height: calc(100vw/(1024/100));
+        margin-top: 50px;
     }
 
     .site-info-text{
-        font-size: calc(100vw/(1024/22));
+        margin-top: 30px;
+        font-size: calc(100vw/(1024/25));
+    }
+
+    /*ピンク鳥の画像*/
+    .background-bird-img img{
+        max-width: 100%;
+        height: auto;
+        position: static;
     }
 }
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1025px) {
     /*　for PC　*/
     .home-conts-name{
         width: calc(100vw/(1920/300));
@@ -46,5 +63,12 @@
 
     .site-info-text{
         font-size: calc(100vw/(1920/25));
+    }
+
+    /*ピンク鳥の画像*/
+    .background-bird-img img{
+        max-width: 100%;
+        height: auto;
+        position: static;
     }
 }
