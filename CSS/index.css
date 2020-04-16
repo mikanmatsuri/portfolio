@@ -10,12 +10,12 @@ body{
 }
 
 header{
-    height: calc(100vw / (1920 / 100));
+    height: 10vh;
     background-color: rgba(255,255,255,0.3);
 }
 
 footer{
-    height: calc(100vw / (1920 / 50));
+    height: 5vh;
     font-size: calc(100vw / (1920 / 15));
 }
 
@@ -74,7 +74,7 @@ nav ul li a:hover{
 /*透明で黒いカバー*/
 .home-black-cover{
     width:calc(100vw/(1920/1720));
-    height:90vh;
+    height:85vh;
     margin: 0 calc(100vw/(1920/100));
     background: rgba(43,57,61,0.2);
 }
