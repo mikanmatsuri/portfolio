@@ -106,15 +106,6 @@ nav ul li a:hover{
     line-height: normal;
 }
 
-/*twitter*/
-.twitter-font-color{
-    text-decoration: none;
-}
-
-.twitter-font-color:hover{
-    cursor: pointer;
-}
-
 /*背景に鳥の画像の配置*/
 .background-bird-img{
     position: absolute;
