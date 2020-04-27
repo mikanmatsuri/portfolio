@@ -47,13 +47,24 @@ ul{
 /*黒バードのlogo画像*/
 .header-logo-button{
     padding-left: 10%;
-    padding-top: 1%;
     display: inline-block;
+    width: 10%;
+    height: 100%;
+    float: left;
 }
 
-.header-logo-button a img{
+.bird-logo{
+    background-image: url("../img/bird-logo.png");
     width: 100%;
+    background-repeat: no-repeat;
     height: 100%;
+    background-size: contain;
+    background-position: center;
+}
+
+/*blk*/
+.blk{
+    height: 40%;
 }
 
 /*ヘッダーの位置やサイズの調整、currentとhoverでカーソルあたるとcssアニメ*/
@@ -65,7 +76,7 @@ nav{
 nav ul li{
     list-style: none;
     float: left;
-    padding: 20px 30px 10px 20px;
+    padding: 0px 30px 0px 20px;
     font-weight: bold;
 }
 nav ul li a{
@@ -99,7 +110,7 @@ nav ul li a:hover{
 
 .home-conts-name, .home-conts-face{
     padding-right: 1%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 
 .home-conts-name{
@@ -146,9 +157,12 @@ nav ul li a:hover{
 }
 
 /*フッター*/
+.bl{
+    height: 30%;
+}
+
 .footer-text-box{
     padding-left: 10%;
-    padding-top: 1%;
 }
 
 .footer-text-box span{
