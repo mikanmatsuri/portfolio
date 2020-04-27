@@ -8,7 +8,7 @@ body{
     width: 100%; /*レスポンシブ：横幅*/
     height: 100%;
     overflow-x:hidden;
-    font-size:30px; /*レスポンシブ：横幅1920pxに対して16pxのフォントサイズ*/
+    font-size:30px;
     color: #465458;
     background: #f7fafa url("../img/background-img.jpg"); /*花の模様の背景画像*/
 }
@@ -46,10 +46,8 @@ ul{
 
 /*黒バードのlogo画像*/
 .header-logo-button{
-    padding-left: 250px;
-    margin-right: 10px;
-    padding-bottom: 20px;
-    padding-top: 10px;
+    padding-left: 10%;
+    padding-top: 1%;
     display: inline-block;
 }
 
@@ -95,13 +93,13 @@ nav ul li a:hover{
 
 /*名前と顔写真をまとめたボックスで位置調整*/
 .home-conts-name-face{
-    padding-left: 200px;
-    padding-top: 100px;
+    padding-left: 15%;
+    padding-top: 7%;
 }
 
 .home-conts-name, .home-conts-face{
-    padding-right: 10px;
-    padding-bottom: 50px;
+    padding-right: 1%;
+    padding-bottom: 5%;
 }
 
 .home-conts-name{
@@ -115,7 +113,7 @@ nav ul li a:hover{
 
 /*サイトの紹介文*/
 .home-site-introduction{
-    padding-left: 270px;
+    padding-left: 16%;
     line-height: normal;
 }
 
