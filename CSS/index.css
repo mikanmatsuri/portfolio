@@ -1,4 +1,8 @@
 /*共通*/
+html{
+    height: 100%;
+}
+
 body{
     font-family: "sans-serif","arial,Century","Times New Roman";
     width: 100%; /*レスポンシブ：横幅*/
@@ -34,6 +38,11 @@ ul{
 }
 
 /*以下から、クラスごとのｃｓｓ*/
+/*home-wrapper*/
+.home-wrapper{
+    height: 85%;
+}
+
 /*黒バードのlogo画像*/
 .header-logo-button{
     padding-left: calc(100vw / (1920 / 250));
@@ -78,7 +87,7 @@ nav ul li a:hover{
 /*透明で黒いカバー*/
 .home-black-cover{
     width:calc(100vw/(1920/1720));
-    height:82vh;
+    height:100%;
     margin: 0 calc(100vw/(1920/100));
     background: rgba(43,57,61,0.2);
 }
@@ -141,7 +150,7 @@ nav ul li a:hover{
 /*フッター*/
 .footer-text-box{
     padding-left: calc(100vw / (1920 / 220));
-    padding-top: calc(100vw / (1920 / 30));
+    padding-top: calc(100vw / (1920 / 10));
 }
 
 .footer-text-box span{
