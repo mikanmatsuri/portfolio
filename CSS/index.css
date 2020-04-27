@@ -1,22 +1,22 @@
 /*共通*/
 body{
     font-family: "sans-serif","arial,Century","Times New Roman";
-    width: calc(100vw - (100vw - 100%)); /*レスポンシブ：横幅*/
-    height: 90vh;
+    width: 100%; /*レスポンシブ：横幅*/
+    height: 100%;
     overflow-x:hidden;
-    font-size:calc(100vw / (1920 / 35)); /*レスポンシブ：横幅1920pxに対して16pxのフォントサイズ*/
+    font-size:calc(100vw / (1920 / 30)); /*レスポンシブ：横幅1920pxに対して16pxのフォントサイズ*/
     color: #465458;
     background: #f7fafa url("../img/background-img.jpg"); /*花の模様の背景画像*/
 }
 
 header{
-    height: 10vh;
+    height: 10%;
     background-color: rgba(255,255,255,0.3);
 }
 
 footer{
-    height: 5vh;
-    font-size: calc(100vw / (1920 / 15));
+    height: 5%;
+    font-size: calc(100vw / (1920 / 20));
 }
 
 ul{
@@ -37,13 +37,15 @@ ul{
 /*黒バードのlogo画像*/
 .header-logo-button{
     padding-left: calc(100vw / (1920 / 250));
+    margin-right: calc(100vw / (1920 / 10));
     padding-bottom: calc(100vw / (1920 / 20));
+    padding-top: calc(100vw / (1920 / 10));;
     display: inline-block;
 }
 
 .header-logo-button a img{
-    width: calc(100vw / (1920 / 100));
-    height: calc(100vw / (1920 / 100));
+    width: 120%;
+    height: 120%;
 }
 
 /*ヘッダーの位置やサイズの調整、currentとhoverでカーソルあたるとcssアニメ*/
@@ -56,10 +58,12 @@ nav ul li{
     list-style: none;
     float: left;
     padding: 20px 30px 10px 20px;
+    font-weight: bold;
 }
 nav ul li a{
     text-decoration: none;
     color: #465458;
+    font-size: calc(100vw / (1920 / 25));
 }
 nav ul li.current a{
     color: #465458;
@@ -74,7 +78,7 @@ nav ul li a:hover{
 /*透明で黒いカバー*/
 .home-black-cover{
     width:calc(100vw/(1920/1720));
-    height:85vh;
+    height:82vh;
     margin: 0 calc(100vw/(1920/100));
     background: rgba(43,57,61,0.2);
 }
@@ -106,6 +110,10 @@ nav ul li a:hover{
     line-height: normal;
 }
 
+.site-info-text{
+    font-size: calc(100vw/(1920/27));
+}
+
 /*Twitter*/
 .twitter-font-color{
     color: #a1538e;
@@ -133,12 +141,12 @@ nav ul li a:hover{
 /*フッター*/
 .footer-text-box{
     padding-left: calc(100vw / (1920 / 220));
-    padding-top: calc(100vw / (1920 / 20));
+    padding-top: calc(100vw / (1920 / 30));
 }
 
 .footer-text-box span{
     padding-left: calc(100vw / (1920 / 30));
-    font-size: calc(100vw / (1920 / 13));
+    font-size: calc(100vw / (1920 / 17));
 }
 
 .footer-text-box a{
