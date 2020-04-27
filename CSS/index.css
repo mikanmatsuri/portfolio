@@ -8,7 +8,7 @@ body{
     width: 100%; /*レスポンシブ：横幅*/
     height: 100%;
     overflow-x:hidden;
-    font-size:calc(100vw / (1920 / 30)); /*レスポンシブ：横幅1920pxに対して16pxのフォントサイズ*/
+    font-size:30px; /*レスポンシブ：横幅1920pxに対して16pxのフォントサイズ*/
     color: #465458;
     background: #f7fafa url("../img/background-img.jpg"); /*花の模様の背景画像*/
 }
@@ -20,12 +20,13 @@ header{
 
 footer{
     height: 5%;
-    font-size: calc(100vw / (1920 / 20));
+    font-size: 20px;
 }
 
 ul{
     list-style: none;
 }
+
 /*クリア*/
 .clear{
     clear: both;
@@ -45,22 +46,22 @@ ul{
 
 /*黒バードのlogo画像*/
 .header-logo-button{
-    padding-left: calc(100vw / (1920 / 250));
-    margin-right: calc(100vw / (1920 / 10));
-    padding-bottom: calc(100vw / (1920 / 20));
-    padding-top: calc(100vw / (1920 / 10));;
+    padding-left: 250px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
     display: inline-block;
 }
 
 .header-logo-button a img{
-    width: 120%;
-    height: 120%;
+    width: 100%;
+    height: 100%;
 }
 
 /*ヘッダーの位置やサイズの調整、currentとhoverでカーソルあたるとcssアニメ*/
 nav{
     display: inline-block;
-    font-size: calc(100vw / (1920 / 23));
+    font-size: 23px;
 }
 
 nav ul li{
@@ -72,7 +73,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #465458;
-    font-size: calc(100vw / (1920 / 25));
+    font-size: 25px;
 }
 nav ul li.current a{
     color: #465458;
@@ -86,41 +87,40 @@ nav ul li a:hover{
 
 /*透明で黒いカバー*/
 .home-black-cover{
-    width:calc(100vw/(1920/1720));
+    width:90%;
     height:100%;
-    margin: 0 calc(100vw/(1920/100));
+    margin:0 5%;
     background: rgba(43,57,61,0.2);
 }
 
 /*名前と顔写真をまとめたボックスで位置調整*/
 .home-conts-name-face{
-    padding-left: calc(100vw/(1920/200));
-    padding-top: calc(100vw/(1920/100));
+    padding-left: 200px;
+    padding-top: 100px;
 }
 
 .home-conts-name, .home-conts-face{
-    padding-right: calc(100vw/(1920/10));
-    padding-bottom: calc(100vw/(1920/50));
+    padding-right: 10px;
+    padding-bottom: 50px;
 }
 
 .home-conts-name{
-    width: calc(100vw/(1920/300));
-    height: calc(100vw/(1920/100));
+    width: 20%;
+    height: 20%;
 }
 
 .home-conts-face{
-    width: calc(100vw/(1920/100));
-    height: calc(100vw/(1920/100));
+    width: 7%;
 }
 
 /*サイトの紹介文*/
 .home-site-introduction{
-    padding-left: calc(100vw/(1920/270));
+    padding-left: 270px;
     line-height: normal;
 }
 
 .site-info-text{
-    font-size: calc(100vw/(1920/27));
+    font-size: 27px;
 }
 
 /*Twitter*/
@@ -149,13 +149,13 @@ nav ul li a:hover{
 
 /*フッター*/
 .footer-text-box{
-    padding-left: calc(100vw / (1920 / 220));
-    padding-top: calc(100vw / (1920 / 10));
+    padding-left: 10%;
+    padding-top: 1%;
 }
 
 .footer-text-box span{
-    padding-left: calc(100vw / (1920 / 30));
-    font-size: calc(100vw / (1920 / 17));
+    padding-left: 2%;
+    font-size: 18px;
 }
 
 .footer-text-box a{
