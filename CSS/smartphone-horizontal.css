@@ -1,0 +1,6 @@
+/*pc, スマホ横向き*/
+@media screen and (min-aspect-ratio: 18/10){
+    div{
+
+    }
+}

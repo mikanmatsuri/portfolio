@@ -1,0 +1,6 @@
+/*タブレット　縦向き*/
+@media screen and (min-aspect-ratio: 5/10) and (max-aspect-ratio: 8/10){
+    div{
+
+    }
+}
