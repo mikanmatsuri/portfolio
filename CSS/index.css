@@ -63,7 +63,7 @@ ul{
 }
 
 /*blk*/
-.blk{
+.h-blank{
     height: 40%;
 }
 
@@ -157,7 +157,7 @@ nav ul li a:hover{
 }
 
 /*フッター*/
-.bl{
+.f-blank{
     height: 30%;
 }
 
