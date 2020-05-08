@@ -1,9 +1,5 @@
 /*タブレット　縦向き*/
 @media screen and (min-aspect-ratio: 5/10) and (max-aspect-ratio: 8/10){
-    body{
-        background-size: cover;
-    }
-
     .header-logo-button{
         padding-left: 5%;
     }
@@ -23,7 +19,7 @@
     .home-black-cover {
         width: 100%;
         margin: 0;
-        z-index: 2;
+
     }
 
     .home-conts-name-face {
@@ -42,9 +38,6 @@
     .site-info-text {
         padding-top: 1%;
         font-size: calc(100vw/(1920/75));
-        z-index: 10000;
-        position: absolute;
-        text-shadow: 1px 1px 3px white;
     }
 
     .home-site-introduction {
@@ -52,16 +45,13 @@
     }
 
     .background-bird-img{
-        z-index: 1;
-        position: absolute;
         width: 80%;
         height: initial;
-        bottom: 0;
         right: -20%;
     }
 
     .f-blank {
-        height: 10%;
+        height: 15%;
     }
 
     .footer-text-box {
@@ -69,6 +59,6 @@
     }
 
     .footer-text-box span {
-        font-size: 12px;
+        font-size: calc(100vw/(1920/50))
     }
 }
