@@ -42,6 +42,7 @@ ul{
 /*home-wrapper*/
 .home-wrapper{
     height: 85%;
+    position: relative;
 }
 
 /*黒バードのlogo画像*/
@@ -149,11 +150,7 @@ nav ul li a:hover{
     position: absolute;
     bottom: 0;
     right: 0;
-}
-
-.background-bird-img img{
-    width: calc(100vw/(1920/1000));
-    height: calc(100vw/(1920/800));
+    height: 80%;
 }
 
 /*フッター*/
