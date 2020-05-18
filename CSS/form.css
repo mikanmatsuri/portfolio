@@ -1,6 +1,7 @@
 /*共通*/
 form{
-    text-align: center;
+    margin: 0 auto;
+    width: 25%;
 }
 
 /*申し込みform*/
@@ -20,38 +21,37 @@ form{
 }
 
 .form-name ,.form-address ,.form-message{
-    padding-top: calc(100vw/(1920/30));
+    padding-top: calc(100vw/(1920/40));
 }
 
 .form-name label ,.form-address label ,.form-message label{
     color: #2e3b40;
     display: block;
-    padding-bottom: calc(100vw/(1920/3));
+    padding-bottom: calc(100vw/(1920/7));
     padding-right: 15%;
 }
 
 .form-name input ,.form-address input ,.form-message textarea{
     padding-left: 2px;
     color: #2e3b40;
-    width: 400px;
+    width: 100%;
     border: #b7bcbd 2px solid;
     border-radius: 5px;
     font-size: calc(100vw/(1920/26));
 }
 
 .form-name input ,.form-address input{
-    height: 40px;
+    height: calc(100vw/(1920/40));
 }
 
 .form-message textarea{
-    height: 100px;
+    height: calc(100vw/(1920/110));
 }
 
 
 /*申し込みformのボタン*/
 button{
     margin-top: 30px;
-    margin-right: 300px;
     width: 100px;
     height: 40px;
     font-size: 20px;
@@ -75,14 +75,51 @@ button{
 
 /*タブレット縦向き　0.5～0.8までのアスペクト比*/
 @media screen and (max-aspect-ratio: 8/10){
+    /*共通*/
+    form{
+        width: 60%;
+    }
+
+    /*申し込みform*/
+    .form-title{
+        padding-top: calc(100vw/(1920/200));
+    }
 
     .form-title img {
-        width: 40%;
-        height: 0%;
+        width: 50%;
+        height: initial;
     }
 
     .form-title p {
-        font-size: calc(100vw/(1920/50));
+        font-size: calc(100vw/(1920/70));
     }
 
+    .form-name, .form-address, .form-message {
+        padding-top: calc(100vw/(1920/100));
+    }
+
+    .form-name input ,.form-address input{
+        height: calc(100vw/(1920/100));
+    }
+
+    .form-message textarea{
+        height: calc(100vw/(1920/220));
+    }
+
+    /*申し込みformのボタン*/
+    button{
+        margin-top: 15%;
+    }
+
+    /*cssアニメーション*/
+    .btn{
+        text-decoration: none;
+        color: #465458;
+        border-radius: 5px;
+    }
+    .btn button:hover{
+        color: #ffffff;
+        cursor: pointer;
+        background-color: #7d416e;
+    }
 }
