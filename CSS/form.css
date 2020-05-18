@@ -73,4 +73,16 @@ button{
     background-color: #7d416e;
 }
 
+/*タブレット縦向き　0.5～0.8までのアスペクト比*/
+@media screen and (max-aspect-ratio: 8/10){
 
+    .form-title img {
+        width: 40%;
+        height: 0%;
+    }
+
+    .form-title p {
+        font-size: calc(100vw/(1920/50));
+    }
+
+}
