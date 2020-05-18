@@ -44,11 +44,6 @@ form{
     height: calc(100vw/(1920/40));
 }
 
-.form-message textarea{
-    height: calc(100vw/(1920/110));
-}
-
-
 /*申し込みformのボタン*/
 button{
     margin-top: 30px;
@@ -77,7 +72,8 @@ button{
 @media screen and (max-aspect-ratio: 8/10){
     /*共通*/
     form{
-        width: 60%;
+        width: 70%;
+        height: 70%;
     }
 
     /*申し込みform*/
@@ -91,35 +87,30 @@ button{
     }
 
     .form-title p {
-        font-size: calc(100vw/(1920/70));
+        padding-top: 2%;
+        font-size: calc(100vw/(1920/80));
     }
 
     .form-name, .form-address, .form-message {
-        padding-top: calc(100vw/(1920/100));
+        padding-top: initial;
+    }
+
+    .form-name label ,.form-address label ,.form-message label{
+        font-size: calc(100vh/(1920/50));
     }
 
     .form-name input ,.form-address input{
-        height: calc(100vw/(1920/100));
+        font-size: calc(100vh/(1920/50));
+        height: initial;
     }
 
     .form-message textarea{
-        height: calc(100vw/(1920/220));
+        font-size: calc(100vh/(1920/50));
     }
 
     /*申し込みformのボタン*/
     button{
-        margin-top: 15%;
+        margin-top: initial;
     }
 
-    /*cssアニメーション*/
-    .btn{
-        text-decoration: none;
-        color: #465458;
-        border-radius: 5px;
-    }
-    .btn button:hover{
-        color: #ffffff;
-        cursor: pointer;
-        background-color: #7d416e;
-    }
 }
