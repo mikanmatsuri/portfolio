@@ -1,3 +1,5 @@
+/*一般的な、全体のCSSに共通しているものをこちらのCSSに記述している*/
+
 /*共通*/
 html{
     height: 100%;
@@ -129,3 +131,70 @@ ul{
     border-bottom: #a1538e 2px solid;
     cursor: pointer;
 }
+
+
+/*タブレット縦向き　0.5～0.8までのアスペクト比*/
+@media screen and (max-aspect-ratio: 8/10){
+    /*header*/
+    .header-logo-button{
+        padding-left: 5%;
+    }
+
+    nav ul li {
+        padding: 0px 5px 10px 25px;
+    }
+
+    nav ul li a{
+        font-size: calc(100vw/(1920/80)); /*80px*/
+    }
+
+    /*footer*/
+    .f-blank {
+        height: 15%;
+    }
+
+    .footer-text-box {
+        padding-left: 5%;
+    }
+
+    .footer-text-box span {
+        font-size: calc(100vw/(1920/50))
+    }
+}
+
+
+/*pc, スマホ横向き　1.8～2.5までのアスペクト比*/
+@media screen and (min-aspect-ratio: 18/10) {
+    /*header*/
+    nav ul li a {
+        font-size: calc(100vw / (1920 / 28));
+    }
+
+    /*footer*/
+    .footer-text-box span {
+        font-size: calc(100vw/(1920/15));
+    }
+
+    .f-blank {
+        height: 10%;
+    }
+}
+
+
+
+
+
+/*スマホ　縦向き*/
+/*　必要になれば使用予定！
+@media screen and (max-aspect-ratio: 5/10){
+
+}
+*/
+
+
+/*PC、タブレット横向き、スマホ横向き*/
+/*　必要になれば使用予定！
+@media screen and (min-aspect-ratio: 8/10) and (max-aspect-ratio: 18/10){
+
+}
+*/
