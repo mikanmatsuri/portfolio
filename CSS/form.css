@@ -76,6 +76,10 @@ button{
         height: 70%;
     }
 
+    .form-space{
+        height: 5%;
+    }
+
     /*申し込みform*/
     .form-title{
         padding-top: calc(100vw/(1920/200));
