@@ -1,6 +1,7 @@
 /*共通*/
 form{
-    text-align: center;
+    margin: 0 auto;
+    width: 25%;
 }
 
 /*申し込みform*/
@@ -20,38 +21,32 @@ form{
 }
 
 .form-name ,.form-address ,.form-message{
-    padding-top: calc(100vw/(1920/30));
+    padding-top: calc(100vw/(1920/40));
 }
 
 .form-name label ,.form-address label ,.form-message label{
     color: #2e3b40;
     display: block;
-    padding-bottom: calc(100vw/(1920/3));
+    padding-bottom: calc(100vw/(1920/7));
     padding-right: 15%;
 }
 
 .form-name input ,.form-address input ,.form-message textarea{
     padding-left: 2px;
     color: #2e3b40;
-    width: 400px;
+    width: 100%;
     border: #b7bcbd 2px solid;
     border-radius: 5px;
     font-size: calc(100vw/(1920/26));
 }
 
 .form-name input ,.form-address input{
-    height: 40px;
+    height: calc(100vw/(1920/40));
 }
-
-.form-message textarea{
-    height: 100px;
-}
-
 
 /*申し込みformのボタン*/
 button{
     margin-top: 30px;
-    margin-right: 300px;
     width: 100px;
     height: 40px;
     font-size: 20px;
@@ -73,4 +68,53 @@ button{
     background-color: #7d416e;
 }
 
+/*タブレット縦向き　0.5～0.8までのアスペクト比*/
+@media screen and (max-aspect-ratio: 8/10){
+    /*共通*/
+    form{
+        width: 70%;
+        height: 70%;
+    }
 
+    .form-space{
+        height: 5%;
+    }
+
+    /*申し込みform*/
+    .form-title{
+        padding-top: calc(100vw/(1920/200));
+    }
+
+    .form-title img {
+        width: 50%;
+        height: initial;
+    }
+
+    .form-title p {
+        padding-top: 2%;
+        font-size: calc(100vw/(1920/80));
+    }
+
+    .form-name, .form-address, .form-message {
+        padding-top: initial;
+    }
+
+    .form-name label ,.form-address label ,.form-message label{
+        font-size: calc(100vh/(1920/50));
+    }
+
+    .form-name input ,.form-address input{
+        font-size: calc(100vh/(1920/50));
+        height: initial;
+    }
+
+    .form-message textarea{
+        font-size: calc(100vh/(1920/50));
+    }
+
+    /*申し込みformのボタン*/
+    button{
+        margin-top: initial;
+    }
+
+}

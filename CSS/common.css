@@ -135,16 +135,26 @@ ul{
 
 /*タブレット縦向き　0.5～0.8までのアスペクト比*/
 @media screen and (max-aspect-ratio: 8/10){
+    .main-wrapper{
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .main-black-cover {
+        width: 100%;
+        margin: 0;
+    }
+
     /*header*/
     .header-logo-button{
         padding-left: 5%;
     }
 
-    nav ul li {
-        padding: 0px 5px 10px 25px;
+    .h-nav ul li {
+        padding: 0px 5px 10px 30px;
     }
 
-    nav ul li a{
+    .h-nav ul li a{
         font-size: calc(100vw/(1920/80)); /*80px*/
     }
 
@@ -166,7 +176,7 @@ ul{
 /*pc, スマホ横向き　1.8～2.5までのアスペクト比*/
 @media screen and (min-aspect-ratio: 18/10) {
     /*header*/
-    nav ul li a {
+    .h-nav ul li a {
         font-size: calc(100vw / (1920 / 28));
     }
 
