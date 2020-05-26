@@ -10,7 +10,6 @@ body{
     width: 100%; /*レスポンシブ：横幅*/
     height: 100%;
     overflow-x:hidden;
-    font-size:30px;
     color: #465458;
     background: #f7fafa url("../img/background-img.jpg"); /*花の模様の背景画像*/
     background-size: cover;
@@ -19,6 +18,7 @@ body{
 header{
     height: 10%;
     background-color: rgba(255,255,255,0.3);
+    position: relative;
 }
 
 footer{
@@ -67,26 +67,29 @@ ul{
 }
 
 /*blk*/
+/*
 .h-blank{
     height: 40%;
-}
+}  */
 
 /*ヘッダーの位置やサイズの調整、currentとhoverでカーソルあたるとcssアニメ*/
 .h-nav{
     display: inline-block;
-    font-size: 23px;
+    font-size: calc(100vw/(1920/23));
+    position: absolute;
+    bottom: 0;
 }
 
 .h-nav ul li{
     list-style: none;
     float: left;
-    padding: 0px 30px 0px 20px;
+    padding: 0 3vh 1vh 3vh;
     font-weight: bold;
 }
 .h-nav ul li a{
     text-decoration: none;
     color: #465458;
-    font-size: 25px;
+    font-size: calc(100vw/(1920/25));
 }
 .h-nav ul li.current a{
     color: #465458;
@@ -108,17 +111,13 @@ ul{
 }
 
 /*フッター*/
-.f-blank{
-    height: 30%;
-}
-
 .footer-text-box{
     padding-left: 10%;
 }
 
 .footer-text-box span{
     padding-left: 2%;
-    font-size: 18px;
+    font-size: calc(100vw/(1920/25));
 }
 
 .footer-text-box a{
