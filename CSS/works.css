@@ -110,7 +110,7 @@ table{
 /*ボタン*/
 .btn-sticky {
     display: inline-block;
-    padding: 0.5em 1em;
+    padding: 1vh 2vh;
     text-decoration: none;
     background: #a1538e;
     color: #ffffff;/*文字色*/
@@ -122,6 +122,7 @@ table{
     background: #77155f;
 }
 
+/*↓空き時間に良い名前を考える　ーーー候補、①スライダーナビゲーション②イメージチェンジスマホ*/
 .dis-no-top{
     display: none;
 }
