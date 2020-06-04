@@ -4,11 +4,6 @@ form{
     width: 40%;
 }
 
-.form-space{
-
-}
-
-
 /*申し込みform*/
 .form-title{
     text-align: center;
@@ -26,11 +21,9 @@ form{
     font-size: calc(100vw/(1920/23));
 }
 
-.form-message, .form-name, .form-address {
-    font-size: 0;
-}
 .form-name ,.form-address,.form-message{
     margin-bottom: 1vh;
+    font-size: 0;
 }
 
 .form-name input ,.form-address input ,.form-message textarea{
