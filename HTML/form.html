@@ -2,12 +2,13 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="Cache-Control" content="no-cache">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="shortcut icon" href="../img/favicon.ico">
         <title>お申し込みはこちら</title>
-        <link rel="stylesheet" href="../css/reset.css">
-        <link rel="stylesheet" href="../css/common.css">
-        <link rel="stylesheet" href="../css/form.css">
+        <link rel="stylesheet" href="../css/reset.css?fdgg">
+        <link rel="stylesheet" href="../css/common.css?fdgg">
+        <link rel="stylesheet" href="../css/form.css?fdgg">
     </head>
     <body>
         <!-- nav -->
@@ -17,7 +18,6 @@
                     <div class="bird-logo"></div>
                 </a>
             </div>
-            <div class="h-blank"></div>
             <nav class="h-nav">
                 <ul>
                     <li>
@@ -45,23 +45,25 @@
                 </div>
                 <form>
                     <div class="form-name">
-                        <label for="name">Name</label>
-                        <input name="f-name" type="text" id="name">
+                        <input name="f-name" type="text" id="name" placeholder="Name">
+                        <div>お使いのデバイスは対応しておりません</div>
                     </div>
                     <div class="form-space"></div>
                     <div class="form-address">
-                        <label for="address">E-mail</label>
-                        <input name="email" type="email" id="address">
+                        <input name="email" type="email" id="address" placeholder="E-mail">
+                        <div>お使いのデバイスは対応しておりません</div>
                     </div>
                     <div class="form-space"></div>
                     <div class="form-message">
-                        <label for="message">Message</label>
-                        <textarea name="text" id="message" rows="5"></textarea>
+                        <textarea name="text" id="message" rows="5" placeholder="Message"></textarea>
+                        <div>お使いのデバイスは対応しておりません</div>
                     </div>
                     <div class="form-space"></div>
+                    <div class="clear"></div>
                     <div class="btn">
-                        <button>send</button>
+                        <button>Send</button>
                     </div>
+                    <div class="send-success">送信が成功しました</div>
                 </form>
             </div>
             <div class="clear"></div>
@@ -69,7 +71,6 @@
 
         <!--フッター-->
         <footer>
-            <div class="f-blank"></div>
             <div class="footer-text-box">
                 <span>
                     Copyright © Natsu portforio inc. All Rights Reserved.
