@@ -11,7 +11,7 @@ body{
     height: 100%;
     overflow-x:hidden;
     color: #465458;
-    background: #f7fafa url("../img/background-img.jpg"); /*花の模様の背景画像*/
+    background: #f7fafa url("../img/background-img2.jpg"); /*花の模様の背景画像*/
     background-size: cover;
 }
 
@@ -66,12 +66,6 @@ ul{
     background-position: center;
 }
 
-/*blk*/
-/*
-.h-blank{
-    height: 40%;
-}  */
-
 /*ヘッダーの位置やサイズの調整、currentとhoverでカーソルあたるとcssアニメ*/
 .h-nav{
     display: inline-block;
@@ -97,7 +91,7 @@ ul{
 }
 .h-nav ul li a:hover{
     color: #a1538e;
-    border-bottom: #a1538e 2px solid;
+    border-bottom: none;
     cursor: pointer;
 }
 
