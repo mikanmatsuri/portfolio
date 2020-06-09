@@ -181,6 +181,10 @@ table{
         font-size: calc(100vw/(1920/60));
     }
 
+    .works-main-left span{
+        bottom: 0;
+    }
+
     .works-main-left >span a{
         font-size: calc(100vw/(1920/100));
     }
@@ -199,11 +203,20 @@ table{
 
     .works-main-page-fix{
         display: block;
-        text-align: right;
+        padding-bottom: 1vh;
     }
 
     .works-main-page-fix a{
-        padding-left: 2vh;
-        font-size: calc(100vw/(1920/60));
+        padding-right: 4vh;
+        font-size: calc(100vw/(1920/90));
+        text-decoration: none;
+        color: #a1538e;
     }
+
+    .works-main-page-fix a:hover{
+        color: #77155f;
+        border-bottom: none;
+        cursor: pointer;
+    }
+
 }
