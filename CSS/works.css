@@ -1,133 +1,128 @@
-/*共通*/
-body{
-    font-family: "sans-serif","arial,Century","Times New Roman";
-    width: calc(100vw - (100vw - 100%)); /*レスポンシブ：横幅*/
-    height: 90vh;
-    overflow-x:hidden;
-    font-size:calc(100vw / (1920 / 22)); /*レスポンシブ：横幅1920pxに対して16pxのフォントサイズ*/
-    color: #465458;
-    background: #f7fafa url("../img/background-img.jpg"); /*花の模様の背景画像*/
+/*all*/
+.main-wrapper{
+    height: initial;
+    background-image: url("../img/background-img2.jpg");
 }
 
-header{
-    height: calc(100vw / (1920 / 100));
-    background-color: rgba(255,255,255,0.3);
+.main-black-cover{
+    height: initial;
 }
 
-form{
-    padding-top: calc(100vw / (1920 / 100));
+.w-blank{
+    height: 3vh;
+    display: inline-block;
+}
+.works-main-conts{
+    padding-bottom: 5%;
+}
+
+.works-main-right{
+    float: left;
+}
+
+.works-main-left{
+    width: 45%;
+    float: left;
+    padding-left: 5%;
+    position: relative;
+}
+
+.works-main-left span{
+    position: absolute;
+    right: 0;
+}
+
+.works-main-left img{
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.works-main-left >span a{
+    font-size: calc(100vw/(1920/27));;
+}
+
+th{
+    text-align: left;
+}
+
+/*works-title*/
+.works-title{
+    padding-top: 10vh;
+    padding-bottom: 15vh;
     text-align: center;
 }
 
-footer{
-    height: calc(100vw / (1920 / 50));
-    font-size: calc(100vw / (1920 / 15));
+.works-title img {
+    width: 15%;
+    height: initial;
 }
 
-ul{
-    list-style: none;
-}
-/*クリア*/
-.clear{
-    clear: both;
+/*------------------------------------------------------------ワークスのメイン*/
+/*Allegro*/
+table{
+    width: 90%;
 }
 
-/*改行*/
-.br::before {
-    content: "\A" ;
-    white-space: pre ;
+.works-allegro-conts{
+    width: 45%;
+    padding-left: 5%;
 }
 
-/*以下から、クラスごとのｃｓｓ*/
-/*黒バードのlogo画像*/
-.header-logo-button{
-    padding-left: calc(100vw / (1920 / 250));
-    padding-top: calc(100vw / (1920 / 20));
-    padding-bottom: calc(100vw / (1920 / 20));
-    display: inline-block;
-    width: calc(100vw / (1920 / 100));
-    height: calc(100vw / (1920 / 100));
+.works-allegro-conts h1{
+    font-size: calc(100vw/(1920/40));
+    width: 50%;
 }
 
-/*ヘッダーの位置やサイズの調整、currentとhoverでカーソルあたるとcssアニメ*/
-nav{
-    display: inline-block;
-    font-size: calc(100vw / (1920 / 23));
+.works-allegro-conts tr{
+    border-bottom: solid 1px #465458;
+    width: 100%;
 }
 
-nav ul li{
-    list-style: none;
-    float: left;
-    padding: 20px 30px 10px 20px;
+.works-allegro-conts th{
+    font-size: calc(100vw/(1920/25));
+    width: 25%;
 }
-nav ul li a{
+
+.works-allegro-conts td{
+    font-size: calc(100vw/(1920/22));
+    padding-left: 2vh;
+    padding-top: 2vh;
+    width: 75%;
+}
+
+.works-allegro-img{
+    width: 40%;
+}
+
+/*リンク*/
+.works-allegro-conts a{
     text-decoration: none;
-    color: #465458;
-}
-nav ul li.current a{
-    color: #465458;
-    border-bottom: #465458 2px solid;
-}
-nav ul li a:hover{
     color: #a1538e;
-    border-bottom: #a1538e 2px solid;
+}
+
+.works-allegro-conts a:hover {
+    color: #77155f;
+    border-bottom: none;
     cursor: pointer;
 }
 
-/*透明で黒いカバー*/
-.works-black-cover{
-    width:calc(100vw/(1920/1720));
-    height:90vh;
-    margin: 0 calc(100vw/(1920/100));
-    background: rgba(43,57,61,0.2);
-}
-
-
-
-/*申し込みformのボタン*/
-button{
-    margin-top: 30px;
-    margin-right: 300px;
-    width: 100px;
-    height: 30px;
-    font-size: 20px;
-    color: #ffffff;
-    background-color: #a1538e;
-    border: none;
-    border-radius: 5px;
-}
-
-/*cssアニメーション*/
-.btn{
+/*ボタン*/
+.btn-sticky {
+    display: inline-block;
+    padding: 1vh 2vh;
     text-decoration: none;
-    color: #465458;
-    border-radius: 5px;
+    background: #a1538e;
+    color: #ffffff;/*文字色*/
+    font-size: calc(100vw/(1920/15));
+    font-weight: bold;
 }
-.btn button:hover{
-    color: #ffffff;
+.btn-sticky:hover {
     cursor: pointer;
-    background-color: #7d416e;
+    background: #77155f;
 }
 
-
-/*フッター*/
-.footer-text-box{
-    padding-left: calc(100vw / (1920 / 220));
-    padding-top: calc(100vw / (1920 / 20));
-}
-
-.footer-text-box span{
-    padding-left: calc(100vw / (1920 / 30));
-    font-size: calc(100vw / (1920 / 13));
-}
-
-.footer-text-box a{
-    text-decoration: none;
-    color: #465458;
-}
-
-.footer-text-box a:hover{
-    color: #a1538e;
-    border-bottom: #a1538e 2px solid;
-    cursor: pointer;
+/*↓空き時間に良い名前を考える　ーーー候補、①スライダーナビゲーション②イメージチェンジスマホ*/
+.dis-no-top{
+    display: none;
 }
