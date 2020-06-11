@@ -46,6 +46,16 @@ th{
     text-align: left;
 }
 
+a{
+    text-decoration: none;
+    color: #a1538e;
+}
+
+a:hover{
+    color: #77155f;
+    border-bottom: none;
+}
+
 /*works-title*/
 .works-title{
     padding-top: 10vh;
@@ -99,31 +109,19 @@ table{
     width: 40%;
 }
 
-/*リンク*/
-.works-allegro-conts a{
-    text-decoration: none;
-    color: #a1538e;
-}
-
-.works-allegro-conts a:hover {
-    color: #77155f;
-    border-bottom: none;
-    cursor: pointer;
-}
 
 /*ボタン*/
 .btn-sticky {
     display: inline-block;
     padding: 1vh 2vh;
-    text-decoration: none;
     background: #a1538e;
     color: #ffffff;/*文字色*/
     font-size: calc(100vw/(1920/15));
     font-weight: bold;
 }
 .btn-sticky:hover {
-    cursor: pointer;
     background: #77155f;
+    color: #ffffff;/*文字色*/
 }
 
 /*↓空き時間に良い名前を考える　ーーー候補、①スライダーナビゲーション②イメージチェンジスマホ*/
@@ -209,14 +207,8 @@ table{
     .works-main-page-fix a{
         padding-right: 4vh;
         font-size: calc(100vw/(1920/90));
-        text-decoration: none;
-        color: #a1538e;
     }
 
-    .works-main-page-fix a:hover{
-        color: #77155f;
-        border-bottom: none;
-        cursor: pointer;
-    }
+
 
 }
