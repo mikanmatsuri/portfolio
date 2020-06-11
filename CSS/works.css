@@ -46,6 +46,16 @@ th{
     text-align: left;
 }
 
+a{
+    text-decoration: none;
+    color: #a1538e;
+}
+
+a:hover{
+    color: #77155f;
+    border-bottom: none;
+}
+
 /*works-title*/
 .works-title{
     padding-top: 10vh;
@@ -56,6 +66,10 @@ th{
 .works-title img {
     width: 15%;
     height: initial;
+}
+
+.works-main-page-fix{
+    display: none;
 }
 
 /*------------------------------------------------------------ワークスのメイン*/
@@ -95,34 +109,106 @@ table{
     width: 40%;
 }
 
-/*リンク*/
-.works-allegro-conts a{
-    text-decoration: none;
-    color: #a1538e;
-}
-
-.works-allegro-conts a:hover {
-    color: #77155f;
-    border-bottom: none;
-    cursor: pointer;
-}
 
 /*ボタン*/
 .btn-sticky {
     display: inline-block;
     padding: 1vh 2vh;
-    text-decoration: none;
     background: #a1538e;
     color: #ffffff;/*文字色*/
     font-size: calc(100vw/(1920/15));
     font-weight: bold;
 }
 .btn-sticky:hover {
-    cursor: pointer;
     background: #77155f;
+    color: #ffffff;/*文字色*/
 }
 
 /*↓空き時間に良い名前を考える　ーーー候補、①スライダーナビゲーション②イメージチェンジスマホ*/
 .dis-no-top{
     display: none;
+}
+
+
+
+/*タブレット縦向き　0.5～0.8までのアスペクト比*/
+@media screen and (max-aspect-ratio: 8/10){
+    .works-title{
+        padding-top: 4vh;
+        padding-bottom: 5vh;
+    }
+
+    .works-title img{
+        width: 25%;
+    }
+
+    .works-main-right{
+        float: none;
+    }
+
+    .works-main-left{
+        width: 90%;
+        float: none;
+    }
+
+    .btn-sticky{
+        font-size: calc(100vw/(1920/60));
+    }
+
+    .works-allegro-conts{
+        width: initial;
+    }
+
+    .works-allegro-conts h1{
+        font-size: calc(100vw/(1920/85));
+    }
+
+    .w-blank{
+        height: 1vh;
+    }
+
+    .works-allegro-conts th{
+        font-size: calc(100vw/(1920/62));
+    }
+
+    .works-allegro-conts a{
+        font-size: calc(100vw/(1920/60));
+    }
+
+    .works-allegro-conts td{
+        font-size: calc(100vw/(1920/60));
+    }
+
+    .works-main-left span{
+        bottom: 0;
+    }
+
+    .works-main-left >span a{
+        font-size: calc(100vw/(1920/100));
+    }
+
+    .dis-no-allow{
+        display: none;
+    }
+
+    .works-allegro-conts-dis-no{
+        display: none;
+    }
+
+    .works-main-conts{
+        padding-bottom: 10%;
+    }
+
+    .works-main-page-fix{
+        display: block;
+        padding-bottom: 1vh;
+    }
+
+    .works-main-page-fix a{
+        padding-right: 4vh;
+        font-size: calc(100vw/(1920/90));
+    }
+
+
+
 }
