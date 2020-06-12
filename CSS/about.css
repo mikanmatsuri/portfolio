@@ -1,0 +1,68 @@
+/*共通*/
+.main-wrapper{
+    height: initial;
+}
+
+.main-black-cover{
+    height: initial;
+}
+
+a{
+    text-decoration: none;
+    color: #a1538e;
+}
+
+a:hover{
+    color: #77155f;
+    border-bottom: none;
+}
+
+.w-blank{
+    height: 1vh;
+}
+
+
+/*works-title*/
+.about-title{
+    padding-top: 10vh;
+    padding-bottom: 13vh;
+    text-align: center;
+}
+
+.about-title img {
+    width: 15%;
+    height: initial;
+}
+
+.about-title p{
+    font-size: calc(100vw/(1920/24));
+}
+
+
+/*main-conts*/
+.about-main-conts{
+    width: 100%;
+}
+
+.about-conts-left ,.about-conts-center ,.about-conts-right{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.about-conts-left{
+    margin-left: 5%;
+}
+
+.about-conts-right{
+    margin-right: 5%;
+}
+
+.about-conts-left img ,.about-conts-center img ,.about-conts-right img{
+    width: 50%;
+}
+
+.about-conts-sentence{
+    width: 50%;
+    text-align: center;
+}
