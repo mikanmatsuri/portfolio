@@ -18,18 +18,18 @@ a:hover{
 }
 
 .w-blank{
-    height: 1vh;
+    height: 1vw;
 }
 
 .space-p{
-    padding-top: 2vh;
+    padding-top: 2vw;
     padding-bottom: 1vw;
 }
 
 /*works-title*/
 .about-title{
-    padding-top: 5vh;
-    padding-bottom: 7vh;
+    padding-top: 5vw;
+    padding-bottom: 4vw;
     text-align: center;
 }
 
@@ -50,7 +50,7 @@ a:hover{
 /*main-conts*/
 .about-main-conts{
     width: 100%;
-    margin-bottom: 15vh;
+    margin-bottom: 10vw;
 }
 
 .about-conts-left ,.about-conts-center ,.about-conts-right{
@@ -74,7 +74,7 @@ a:hover{
 .about-conts-sentence{
     width: 90%;
     margin: 0 auto;
-    padding-top: 1vh;
+    padding-top: 1vw;
 }
 
 .about-conts-sentence span{
@@ -89,7 +89,7 @@ a:hover{
     width: 80%;
     margin-left: 10%;
     line-height: 1.5vw;
-    padding-bottom: 5vh;
+    padding-bottom: 5vw;
 }
 
 .f-sentence p{
