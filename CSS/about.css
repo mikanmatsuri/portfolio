@@ -39,11 +39,11 @@ a:hover{
 }
 
 .about-title p{
-    font-size: calc(100vw/(1920/24));
+    font-size: calc(100vw/(1920/20));
 }
 
 .about-title span{
-    font-size: calc(100vw/(1920/70));
+    font-size: calc(100vw/(1920/50));
 }
 
 .about-subject{
@@ -72,21 +72,21 @@ a:hover{
 }
 
 .about-conts-left img ,.about-conts-center img ,.about-conts-right img{
-    width: calc(100vw/(1920/310));
+    width: calc(100vw/(1920/200));
 }
 
 .about-conts-sentence{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     padding-top: 1vw;
 }
 
 .about-conts-sentence span{
-    font-size: calc(100vw/(1920/50));
+    font-size: calc(100vw/(1920/30));
 }
 
 .about-conts-sentence p{
-    font-size: calc(100vw/(1920/25));
+    font-size: calc(100vw/(1920/20));
 }
 
 .f-sentence{
@@ -97,7 +97,7 @@ a:hover{
 }
 
 .f-sentence p{
-    font-size: calc(100vw/(1920/24));
+    font-size: calc(100vw/(1920/20));
 }
 
 /*footer*/
