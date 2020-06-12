@@ -46,6 +46,10 @@ a:hover{
     font-size: calc(100vw/(1920/70));
 }
 
+.about-subject{
+    padding-top: initial;
+}
+
 
 /*main-conts*/
 .about-main-conts{
