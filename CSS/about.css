@@ -22,7 +22,8 @@ a:hover{
 }
 
 .space-p{
-    padding-bottom: 1vh;
+    padding-top: 2vh;
+    padding-bottom: 1vw;
 }
 
 /*works-title*/
@@ -42,7 +43,7 @@ a:hover{
 }
 
 .about-title span{
-    font-size: calc(100vw/(1920/60));
+    font-size: calc(100vw/(1920/70));
 }
 
 
@@ -67,25 +68,30 @@ a:hover{
 }
 
 .about-conts-left img ,.about-conts-center img ,.about-conts-right img{
-    width: 50%;
+    width: calc(100vw/(1920/310));
 }
 
 .about-conts-sentence{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding-top: 1vh;
 }
 
 .about-conts-sentence span{
-    font-size: calc(100vw/(1920/30));
+    font-size: calc(100vw/(1920/50));
 }
 
 .about-conts-sentence p{
-    font-size: calc(100vw/(1920/22));
+    font-size: calc(100vw/(1920/25));
 }
 
 .f-sentence{
-    width: 60%;
-    margin-left: 20%;
-    line-height: 2vw;
+    width: 80%;
+    margin-left: 10%;
+    line-height: 1.5vw;
+    padding-bottom: 5vh;
+}
+
+.f-sentence p{
+    font-size: calc(100vw/(1920/24));
 }
