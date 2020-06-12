@@ -99,3 +99,12 @@ a:hover{
 .f-sentence p{
     font-size: calc(100vw/(1920/24));
 }
+
+/*footer*/
+.footer-text-box{
+    padding: 0 5%;
+}
+
+.footer-text-box span{
+    padding-left: 7%;
+}
