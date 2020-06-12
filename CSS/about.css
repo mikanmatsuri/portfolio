@@ -1,0 +1,110 @@
+/*共通*/
+.main-wrapper{
+    height: initial;
+}
+
+.main-black-cover{
+    height: initial;
+}
+
+a{
+    text-decoration: none;
+    color: #a1538e;
+}
+
+a:hover{
+    color: #77155f;
+    border-bottom: none;
+}
+
+.w-blank{
+    height: 1vw;
+}
+
+.space-p{
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+}
+
+/*works-title*/
+.about-title{
+    padding-top: 5vw;
+    padding-bottom: 4vw;
+    text-align: center;
+}
+
+.about-title img {
+    width: 15%;
+    height: initial;
+}
+
+.about-title p{
+    font-size: calc(100vw/(1920/20));
+}
+
+.about-title span{
+    font-size: calc(100vw/(1920/50));
+}
+
+.about-subject{
+    padding-top: initial;
+}
+
+
+/*main-conts*/
+.about-main-conts{
+    width: 100%;
+    margin-bottom: 10vw;
+}
+
+.about-conts-left ,.about-conts-center ,.about-conts-right{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.about-conts-left{
+    margin-left: 5%;
+}
+
+.about-conts-right{
+    margin-right: 5%;
+}
+
+.about-conts-left img ,.about-conts-center img ,.about-conts-right img{
+    width: calc(100vw/(1920/200));
+}
+
+.about-conts-sentence{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1vw;
+}
+
+.about-conts-sentence span{
+    font-size: calc(100vw/(1920/30));
+}
+
+.about-conts-sentence p{
+    font-size: calc(100vw/(1920/20));
+}
+
+.f-sentence{
+    width: 86%;
+    padding-left: 7%;
+    line-height: 1.5vw;
+    padding-bottom: 5vw;
+}
+
+.f-sentence p{
+    font-size: calc(100vw/(1920/20));
+}
+
+/*footer*/
+.footer-text-box{
+    padding: 0 5%;
+}
+
+.footer-text-box span{
+    padding-left: 7%;
+}
