@@ -21,11 +21,15 @@ a:hover{
     height: 1vh;
 }
 
+.space-p{
+    padding-bottom: 1vh;
+    padding-top:1.5vh;
+}
 
 /*works-title*/
 .about-title{
-    padding-top: 10vh;
-    padding-bottom: 13vh;
+    padding-top: 5vh;
+    padding-bottom: 7vh;
     text-align: center;
 }
 
@@ -63,6 +67,15 @@ a:hover{
 }
 
 .about-conts-sentence{
-    width: 50%;
-    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1vh;
+}
+
+.about-conts-sentence span{
+    font-size: calc(100vw/(1920/30));
+}
+
+.about-conts-sentence p{
+    font-size: calc(100vw/(1920/22));
 }
