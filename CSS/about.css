@@ -23,7 +23,6 @@ a:hover{
 
 .space-p{
     padding-bottom: 1vh;
-    padding-top:1.5vh;
 }
 
 /*works-title*/
@@ -42,10 +41,15 @@ a:hover{
     font-size: calc(100vw/(1920/24));
 }
 
+.about-title span{
+    font-size: calc(100vw/(1920/60));
+}
+
 
 /*main-conts*/
 .about-main-conts{
     width: 100%;
+    margin-bottom: 15vh;
 }
 
 .about-conts-left ,.about-conts-center ,.about-conts-right{
