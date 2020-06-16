@@ -10,11 +10,11 @@ window.onload = function(){
         for(var i = 0; i < en_texts.length; i++){
             //もしも、現在の言語が日本語だったら
             if(current_language === "jp"){
-                //ｃｓｓに記載している英語表記のdisplayをブロックにして、変数en_textsを記載している箇所の英語を表示させる
+                //ｃｓｓに記載している英語表記のdisplayをブロックにして、変数en_textsの中身である英語を表示させる
                 en_texts[i].style.display = "block";
                 //そうでないなら（現在の言語が英語なら）
             } else {
-                //ｃｓｓに記載している英語表記のdisplayをnoneにして、変数en_texts箇所の英語を表示しない
+                //ｃｓｓに記載している英語表記のdisplayをnoneにして、変数en_textsの要素の中身である英語を表示しない
                 en_texts[i].style.display = "none";
             }
         }
@@ -30,7 +30,7 @@ window.onload = function(){
                 jp_texts[i].style.display = "none";
             //日本語以外なら
             } else {
-                //ｃｓｓに記載している日本語表記のdisplayをブロックにして、変数jp_textsを記載している箇所の日本語を表示する
+                //ｃｓｓに記載している日本語表記のdisplayをブロックにして、変数の中身である要素jp_textsを記載している箇所の日本語を表示する
                 jp_texts[i].style.display = "block";
             }
         }
