@@ -30,6 +30,11 @@ ul{
     list-style: none;
 }
 
+/*英語をデフォルトで非表示にする*/
+.text-en{
+    display: none;
+}
+
 /*クリア*/
 .clear{
     clear: both;
