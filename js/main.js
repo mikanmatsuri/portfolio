@@ -18,9 +18,11 @@ window.onload = function(){
                 en_texts[i].style.display = "none";
             }
         }
-        //変数jp_textsにtext-jpクラスを付与する
+        //text-enというクラス名がついている要素をすべて一括取得し、変数jp_textsに入れる
         var jp_texts = document.getElementsByClassName("text-jp");
+        //
 
+        //【①「今、何回目の繰り返し処理中か」をカウントするための変数定義　②何回繰り返し処理をするか　③カウンタを1ずつ加算する】を繰り返す
         for(var i = 0; i < jp_texts.length; i++){
             //もしも、現在の言語が日本語だったら
             if(current_language === "jp"){
