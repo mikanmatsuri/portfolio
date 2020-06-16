@@ -10,7 +10,7 @@ window.onload = function(){
         for(var i = 0; i < en_texts.length; i++){
             //もしも、現在の言語が日本語だったら
             if(current_language === "jp"){
-                //ｃｓｓに記載している英語表記のdisplayをブロックにして、変数en_textsの中身である英語を表示させる
+                //ｃｓｓに記載している英語表記のdisplayをブロックにして、変数en_textsの要素の中身である英語を表示させる
                 en_texts[i].style.display = "block";
                 //そうでないなら（現在の言語が英語なら）
             } else {
@@ -20,17 +20,16 @@ window.onload = function(){
         }
         //text-enというクラス名がついている要素をすべて一括取得し、変数jp_textsに入れる
         var jp_texts = document.getElementsByClassName("text-jp");
-        //
 
         //【①「今、何回目の繰り返し処理中か」をカウントするための変数定義　②何回繰り返し処理をするか　③カウンタを1ずつ加算する】を繰り返す
         for(var i = 0; i < jp_texts.length; i++){
             //もしも、現在の言語が日本語だったら
             if(current_language === "jp"){
-                //ｃｓｓに記載している日本語表記のdisplayをnoneにして、変数jp_textsを記載している箇所の日本語を表示しない
+                //ｃｓｓに記載している日本語表記のdisplayをnoneにして、変数jp_textsの要素の中身である日本語を表示しない
                 jp_texts[i].style.display = "none";
             //日本語以外なら
             } else {
-                //ｃｓｓに記載している日本語表記のdisplayをブロックにして、変数の中身である要素jp_textsを記載している箇所の日本語を表示する
+                //ｃｓｓに記載している日本語表記のdisplayをブロックにして、要素の中身である日本語を表示する
                 jp_texts[i].style.display = "block";
             }
         }
