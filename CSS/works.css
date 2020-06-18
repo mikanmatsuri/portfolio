@@ -39,7 +39,7 @@
 }
 
 .works-main-left >span a{
-    font-size: calc(100vw/(1920/27));;
+    font-size: calc(100vw/(1920/27));
 }
 
 th{
