@@ -1,5 +1,14 @@
 // ページがダウンロードされるのを待つ
 window.onload = function(){
+    var count = 0;
+    var countup = function(){
+        count++;
+        document.getElementById("allegro-image-container").style.left = count+"px";
+    };
+    setInterval(countup, 100);
+
+
+
 
     var showLanguage = function(current_language){
         console.log(current_language);
