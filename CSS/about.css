@@ -39,7 +39,7 @@ a:hover{
 }
 
 .about-title p{
-    font-size: calc(100vw/(1920/20));
+    font-size: calc(100vw/(1920/16));
 }
 
 .about-title span{
