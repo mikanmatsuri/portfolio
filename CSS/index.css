@@ -6,7 +6,6 @@
 
 .home-conts-name, .home-conts-face{
     padding-right: 1%;
-    padding-bottom: 3%;
 }
 
 .home-conts-name{
@@ -29,6 +28,10 @@
     z-index: 30;
     text-shadow: 1px 1px 3px white;
     position: absolute;
+}
+
+.text-s{
+    font-size: 19px;
 }
 
 /*Twitter*/
@@ -77,6 +80,10 @@
         padding-left: 13%;
     }
 
+    .text-s{
+        font-size: 12px;
+    }
+
     .background-bird-img{
         width: 80%;
         height: initial;
@@ -94,6 +101,10 @@
 
     .site-info-text {
         font-size: calc(100vw/(1920/30));
+    }
+
+    .text-s{
+        font-size: 15px;
     }
 
 }
