@@ -22,8 +22,7 @@ a:hover{
 }
 
 .space-p{
-    padding-top: 2vw;
-    padding-bottom: 1vw;
+    padding-bottom: 0.5vw;
 }
 
 /*works-title*/
@@ -87,10 +86,6 @@ a:hover{
 
 .about-conts-sentence p{
     font-size: calc(100vw/(1920/20));
-}
-
-.text-size{
-    font-size: calc(100vw/(1920/15)) !important;
 }
 
 .f-sentence{
