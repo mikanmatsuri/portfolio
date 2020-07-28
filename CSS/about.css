@@ -72,7 +72,7 @@ a:hover{
 }
 
 .about-conts-left img ,.about-conts-center img ,.about-conts-right img{
-    width: calc(100vw/(1920/200));
+    width: calc(100vw/(1920/120));
 }
 
 .about-conts-sentence{
@@ -87,6 +87,10 @@ a:hover{
 
 .about-conts-sentence p{
     font-size: calc(100vw/(1920/20));
+}
+
+.text-size{
+    font-size: calc(100vw/(1920/15)) !important;
 }
 
 .f-sentence{
