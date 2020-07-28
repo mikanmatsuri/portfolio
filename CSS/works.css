@@ -34,12 +34,10 @@
 
 .works-main-left img{
     width: 100%;
-    margin-top: 1%;
-    margin-bottom: 1%;
 }
 
 .works-main-left >span a{
-    font-size: calc(100vw/(1920/27));;
+    font-size: calc(100vw/(1920/27));
 }
 
 th{
@@ -109,6 +107,31 @@ table{
     width: 40%;
 }
 
+/*JS*/
+.position-absolute{
+    position: absolute;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.allegro-image-container{
+    width:2000px;
+}
+
+.allegro-image-container img{
+    float:left;
+    width:40vw;
+}
+
+.allegro-overflow-hidden{
+    width:100%;
+    height:calc(40vw/1.976);
+    overflow: hidden;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
 
 /*ボタン*/
 .btn-sticky {

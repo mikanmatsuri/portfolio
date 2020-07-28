@@ -3,12 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="Cache-Control" content="no-cache">
+
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="shortcut icon" href="../img/favicon.ico">
         <title>Works</title>
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/common.css">
         <link rel="stylesheet" href="../css/works.css">
+        <script src="../js/main.js"></script>
     </head>
     <body>
         <!-- nav -->
@@ -30,7 +32,10 @@
                         <a href="form.html">連絡先</a>
                     </li>
                     <li>
-                        <a href="#">English</a>
+                        <a id="switch-language" href="#">
+                            <span class="text-jp">English</span>
+                            <span class="text-en">Japanese</span>
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -58,7 +63,13 @@
                             <a href="#">RHW</a>
                             <a href="#">Panda cafe</a>
                         </div>
-                        <img src="../img/works-allegro.png">
+                        <div class="allegro-overflow-hidden position-relative">
+                            <div class="position-absolute allegro-image-container" id="allegro-image-container">
+                                <img src="../img/works-allegro.png">
+                                <img src="../img/works-rhw.png">
+                                <img src="../img/works-rhw.png">
+                            </div>
+                        </div>
                         <a href="#" class="btn-sticky">PC</a>
                         <span>
                             <a href="#" class="dis-no-allow"><  </a>

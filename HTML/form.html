@@ -6,9 +6,10 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="shortcut icon" href="../img/favicon.ico">
         <title>お申し込みはこちら</title>
-        <link rel="stylesheet" href="../css/reset.css?fdgg">
-        <link rel="stylesheet" href="../css/common.css?fdgg">
-        <link rel="stylesheet" href="../css/form.css?fdgg">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/form.css">
+        <script src="../js/main.js"></script>
     </head>
     <body>
         <!-- nav -->
@@ -30,7 +31,10 @@
                         <a href="form.html">連絡先</a>
                     </li>
                     <li>
-                        <a href="#">English</a>
+                        <a id="switch-language" href="#">
+                            <span class="text-jp">English</span>
+                            <span class="text-en">Japanese</span>
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -46,24 +50,36 @@
                 <form>
                     <div class="form-name">
                         <input name="f-name" type="text" id="name" placeholder="Name">
-                        <div>お使いのデバイスは対応しておりません</div>
+                        <div>
+                            <span class="text-en">English</span>
+                            <span class="text-jp">お使いのデバイスは対応しておりません</span>
+                        </div>
                     </div>
                     <div class="form-space"></div>
                     <div class="form-address">
                         <input name="email" type="email" id="address" placeholder="E-mail">
-                        <div>お使いのデバイスは対応しておりません</div>
+                        <div>
+                            <span class="text-en">English</span>
+                            <span class="text-jp">お使いのデバイスは対応しておりません</span>
+                        </div>
                     </div>
                     <div class="form-space"></div>
                     <div class="form-message">
                         <textarea name="text" id="message" rows="5" placeholder="Message"></textarea>
-                        <div>お使いのデバイスは対応しておりません</div>
+                        <div>
+                            <span class="text-en">English</span>
+                            <span class="text-jp">お使いのデバイスは対応しておりません</span>
+                        </div>
                     </div>
                     <div class="form-space"></div>
                     <div class="clear"></div>
                     <div class="btn">
                         <button>Send</button>
                     </div>
-                    <div class="send-success">送信が成功しました</div>
+                    <div class="send-success">
+                        <span class="text-en">English</span>
+                        <span class="text-jp">送信が成功しました</span>
+                    </div>
                 </form>
             </div>
             <div class="clear"></div>
