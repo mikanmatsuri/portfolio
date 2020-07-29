@@ -22,7 +22,7 @@ a:hover{
 }
 
 .space-p{
-    padding-bottom: 0.5vw;
+    line-height: calc(100vw/(1920/30));
 }
 
 /*works-title*/
