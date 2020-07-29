@@ -22,8 +22,7 @@ a:hover{
 }
 
 .space-p{
-    padding-top: 2vw;
-    padding-bottom: 1vw;
+    line-height: calc(100vw/(1920/30));
 }
 
 /*works-title*/
@@ -72,7 +71,7 @@ a:hover{
 }
 
 .about-conts-left img ,.about-conts-center img ,.about-conts-right img{
-    width: calc(100vw/(1920/200));
+    width: calc(100vw/(1920/120));
 }
 
 .about-conts-sentence{
