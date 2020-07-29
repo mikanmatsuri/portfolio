@@ -5,6 +5,7 @@
 
 .main-black-cover{
     height: initial;
+    padding-bottom: 5%;
 }
 
 a{
@@ -88,15 +89,25 @@ a:hover{
     font-size: calc(100vw/(1920/20));
 }
 
-.f-sentence{
+/*Greetingの薄いの背景*/
+.greeting-wrapper{
     width: 86%;
-    padding-left: 7%;
+    background-color: #ffffff;
+    border: solid calc(100vw/(1920/5)) #b8bdbe;
+    border-radius: calc(100vw/(1920/10));
+    margin: 0 auto;
+    padding-top: 7vh;
+}
+
+.f-sentence{
+    width: 80%;
+    margin: 0 auto;
     line-height: 1.5vw;
     padding-bottom: 5vw;
 }
 
 .f-sentence p{
-    font-size: calc(100vw/(1920/20));
+    font-size: calc(100vw/(1920/18));
 }
 
 /*footer*/
