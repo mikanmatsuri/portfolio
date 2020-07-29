@@ -88,6 +88,10 @@ a:hover{
     font-size: calc(100vw/(1920/18));
 }
 
+.turn-back-left{
+    text-align: left;
+}
+
 .f-sentence{
     width: 86%;
     padding-left: 7%;
