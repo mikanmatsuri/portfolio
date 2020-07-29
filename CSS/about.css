@@ -85,7 +85,7 @@ a:hover{
 }
 
 .about-conts-sentence p{
-    font-size: calc(100vw/(1920/20));
+    font-size: calc(100vw/(1920/18));
 }
 
 .f-sentence{
