@@ -23,7 +23,7 @@ a:hover{
 }
 
 .space-p{
-    line-height: calc(100vw/(1920/30));
+    line-height: 1.5em;
 }
 
 /*works-title*/
@@ -121,4 +121,57 @@ a:hover{
 
 .footer-text-box span{
     padding-left: 7%;
+}
+
+/*タブレット縦向き　0.5～0.8までのアスペクト比*/
+@media screen and (max-aspect-ratio: 8/10){
+    .about-title{
+        padding-bottom: 8vw;
+    }
+
+    .about-title img {
+        width: 40%;
+    }
+
+    .about-title p {
+        font-size: calc(100vw/(1920/55));
+    }
+
+    .about-title span{
+        font-size: calc(100vw/(1920/150));
+    }
+
+    .about-subject{
+        padding-top: 5vw;
+    }
+
+    .w-blank {
+        height: 2vw;
+    }
+
+    .about-conts-sentence span {
+        font-size: calc(100vw/(1920/100));
+    }
+
+    .about-conts-left, .about-conts-center, .about-conts-right{
+        width: 100%;
+        padding-bottom: 7vh;
+        padding-top: 3vh;
+    }
+
+    .about-conts-left{
+        margin-left:initial;
+    }
+
+    .about-conts-left img, .about-conts-center img, .about-conts-right img{
+        width: calc(100vw/(1920/420));
+    }
+
+    .about-conts-sentence p{
+        font-size: calc(100vw/(1920/70));
+    }
+
+    .f-sentence p {
+        font-size: calc(100vw/(1920/60));
+    }
 }
