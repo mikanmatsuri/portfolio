@@ -8,10 +8,6 @@
     height: initial;
 }
 
-.w-blank{
-    height: 3vh;
-    display: inline-block;
-}
 .works-main-conts{
     padding-bottom: 5%;
 }
@@ -64,6 +60,20 @@ a:hover{
 .works-title img {
     width: 15%;
     height: initial;
+}
+
+.line-spacing-works{
+    padding-top: 1vh;
+}
+
+.w-blank{
+    height: 3vh;
+    display: inline-block;
+}
+
+.space-p{
+    line-height: calc(100vw/(1920/30));
+    font-size: calc(100vw/(1920/16));
 }
 
 .works-main-page-fix{
