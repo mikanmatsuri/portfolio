@@ -1,11 +1,6 @@
 /*all*/
 .main-wrapper{
-    height: initial;
     background-image: url("../img/background-img2.jpg");
-}
-
-.main-black-cover{
-    height: initial;
 }
 
 .works-main-conts{
@@ -166,6 +161,14 @@ table{
 
 /*タブレット縦向き　0.5～0.8までのアスペクト比*/
 @media screen and (max-aspect-ratio: 8/10){
+    .main-wrapper{
+        height: 85%;
+    }
+
+    .main-black-cover{
+        height: 100%;
+    }
+
     .works-title{
         padding-top: 4vh;
         padding-bottom: 5vh;

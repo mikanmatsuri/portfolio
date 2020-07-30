@@ -1,3 +1,11 @@
+.main-wrapper {
+    height: 85%;
+}
+
+.main-black-cover{
+    height:100%;
+}
+
 /*名前と顔写真をまとめたボックスで位置調整*/
 .home-conts-name-face{
     padding-left: 15%;
