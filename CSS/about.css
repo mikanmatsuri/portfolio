@@ -138,7 +138,7 @@ a:hover{
     }
 
     .about-title span{
-        font-size: calc(100vw/(1920/150));
+        font-size: calc(100vw/(1920/180));
     }
 
     .about-subject{
@@ -171,7 +171,17 @@ a:hover{
         font-size: calc(100vw/(1920/70));
     }
 
-    .f-sentence p {
-        font-size: calc(100vw/(1920/60));
+    .greeting-wrapper {
+        width: 90%;
     }
+
+    .f-sentence{
+        width: 88%;
+    }
+
+    .f-sentence p {
+        font-size: calc(100vw/(1920/65));
+    }
+
+
 }
