@@ -107,7 +107,7 @@ table{
 }
 
 .works-allegro-conts td{
-    font-size: calc(100vw/(1920/22));
+    font-size: calc(100vw/(1920/20));
     padding-left: 2vh;
     padding-top: 2vh;
     width: 75%;
