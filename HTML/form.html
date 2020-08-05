@@ -69,25 +69,25 @@
                 <form>
                     <div class="form-name">
                         <input name="f-name" type="text" id="name" placeholder="Name">
-                        <div>
-                            <span class="text-en form-main-page-fix">English</span>
-                            <span class="text-jp form-main-page-fix">お使いのデバイスは対応しておりません</span>
+                        <div class="form-main-page-fix"><!-- JSでエラー文言の表示と非表示の処理を書いて「form-main-page-fix」と紐づける予定 -->
+                            <span class="text-en">English</span>
+                            <span class="text-jp">お使いのデバイスは対応しておりません</span>
                         </div>
                     </div>
                     <div class="form-space"></div>
                     <div class="form-address">
                         <input name="email" type="email" id="address" placeholder="E-mail">
-                        <div>
-                            <span class="text-en form-main-page-fix">English</span>
-                            <span class="text-jp form-main-page-fix">お使いのデバイスは対応しておりません</span>
+                        <div class="form-main-page-fix">
+                            <span class="text-en">English</span>
+                            <span class="text-jp">お使いのデバイスは対応しておりません</span>
                         </div>
                     </div>
                     <div class="form-space"></div>
                     <div class="form-message">
                         <textarea name="text" id="message" rows="5" placeholder="Message"></textarea>
-                        <div>
-                            <span class="text-en form-main-page-fix">English</span>
-                            <span class="text-jp form-main-page-fix">お使いのデバイスは対応しておりません</span>
+                        <div class="form-main-page-fix">
+                            <span class="text-en">English</span>
+                            <span class="text-jp">お使いのデバイスは対応しておりません</span>
                         </div>
                     </div>
                     <div class="form-space"></div>
@@ -95,9 +95,9 @@
                     <div class="btn">
                         <button>Send</button>
                     </div>
-                    <div class="send-success">
-                        <span class="text-en form-main-page-fix">English</span>
-                        <span class="text-jp form-main-page-fix">送信が成功しました</span>
+                    <div class="send-success form-main-page-fix">
+                        <span class="text-en">English</span>
+                        <span class="text-jp">送信が成功しました</span>
                     </div>
                 </form>
             </div>
