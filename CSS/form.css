@@ -93,6 +93,11 @@ button{
     display: none;
 }
 
+/*PHP勉強後、サーバに送る等を行う処理や表示文言等を検討予定*/
+.form-main-page-fix{
+    display: none;
+}
+
 
 /*タブレット縦向き　0.5～0.8までのアスペクト比*/
 @media screen and (max-aspect-ratio: 8/10){
