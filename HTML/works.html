@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="Cache-Control" content="no-cache">
-
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="shortcut icon" href="../img/favicon.ico">
         <title>Works</title>
@@ -23,18 +22,35 @@
             <nav class="h-nav">
                 <ul>
                     <li>
-                        <a href="about.html" class="current">紹介</a>
+                        <a href="about.html" class="current">
+                            <!-- JSで言語切替を行う　※日本語ver -->
+                            <span class="text-jp">紹介</span>
+                            <!-- JSで言語切替を行う　※英語ver -->
+                            <span class="text-en">About</span>
+                        </a>
                     </li>
                     <li>
-                        <a href="works.html">作品</a>
+                        <a href="works.html">
+                            <!-- JSで言語切替を行う　※日本語ver -->
+                            <span class="text-jp">作品</span>
+                            <!-- JSで言語切替を行う　※英語ver -->
+                            <span class="text-en">Works</span>
+                        </a>
                     </li>
                     <li>
-                        <a href="form.html">連絡先</a>
+                        <a href="form.html">
+                            <!-- JSで言語切替を行う　※日本語ver -->
+                            <span class="text-jp">連絡先</span>
+                            <!-- JSで言語切替を行う　※英語ver -->
+                            <span class="text-en">Contact</span>
+                        </a>
                     </li>
                     <li>
                         <a id="switch-language" href="#">
+                            <!-- JSで言語切替を行う　※日本語ver -->
                             <span class="text-jp">English</span>
-                            <span class="text-en">Japanese</span>
+                            <!-- JSで言語切替を行う　※英語ver -->
+                            <span class="text-en">日本語</span>
                         </a>
                     </li>
                 </ul>
@@ -46,24 +62,31 @@
             <div class="main-black-cover">  <!--半透明の黒のカバー-->
                 <div class="works-title">
                     <img alt="works" src="../img/works-img.png">
-                    <p class="space-p line-spacing-works">作成したサイトやデザインになります</p>
+
+                    <!-- JSで言語切替を行う　※日本語ver -->
+                    <p class="space-p line-spacing-works text-jp">作成したサイトやデザインになります</p>
+                    <!-- JSで言語切替を行う　※英語ver -->
+                    <p class="space-p line-spacing-works text-en">It will be the created site and design.</p>
                 </div>
 
                 <div class="works-main-conts"> <!-- allegro -->
                     <div class="works-main-left">
                         <a href="#" class="btn-sticky dis-no-top">PC</a>
+                        <a href="#" class="btn-sticky dis-no-top">smartphone</a>
                         <span class="dis-no-top">
                             <a href="#"><  </a>
                             <a href="#">● </a>
+
                             <a href="#">○ </a>
                             <a href="#">○ </a>
                             <a href="#">  ></a>
                         </span>
                         <div class="works-main-page-fix">
                             <a href="#">Allegro</a>
-                            <a href="#">RHW</a>
-                            <a href="#">Panda cafe</a>
-                            <a href="#">Banner</a>
+                            <a href="#">Rhw</a>
+                            <a href="#">P-cafe</a>
+                            <a href="#">Portfolio</a>
+                            <a href="#">Banners</a>
                         </div>
                         <div class="allegro-overflow-hidden position-relative">
                             <div class="position-absolute allegro-image-container" id="allegro-image-container">
@@ -73,6 +96,7 @@
                             </div>
                         </div>
                         <a href="#" class="btn-sticky">PC</a>
+                        <a href="#" class="btn-sticky">smartphone</a>
                         <span>
                             <a href="#" class="dis-no-allow"><  </a>
                             <a href="#">● </a>
@@ -86,7 +110,10 @@
                         <div class="w-blank"></div>
                         <table>
                             <tr>
-                                <th>リンク</th>
+                                <!-- JSで言語切替を行う　※日本語ver -->
+                                <th class="text-jp space-p">リンク</th>
+                                <!-- JSで言語切替を行う　※英語ver -->
+                                <th class="text-en space-p">Link</th>
                                 <td>
                                     <span>
                                         <a href="#">https://github.com/mikanmatsuri</a>
@@ -94,7 +121,12 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th>Github</th>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">ギットハブ</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Github</span>
+                                </th>
                                 <td>
                                     <span>
                                         <a href="#">https://github.com/mikanmatsuri</a>
@@ -102,20 +134,55 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th>使用言語</th>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">使用言語</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Language used</span>
+                                </th>
                                 <td>HTML&CSS</td>
                             </tr>
                             <tr>
-                                <th>対応デバイス</th>
-                                <td>PC表示のみ</td>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">対応デバイス</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Device</span>
+                                </th>
+                                <td class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">PC表示のみ</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">PC display only</span>
+                                </td>
                             </tr>
                             <tr>
-                                <th>プロジェクト</th>
-                                <td>イタリア料理のサイト</td>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">プロジェクト</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Project</span>
+                                </th>
+                                <td class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">イタリア料理のサイト</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Italian food site</span>
+                                </td>
                             </tr>
                             <tr>
-                                <th>備考</th>
-                                <td>既存のサイトデザインを使用。コーディングのみ</td>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">備考</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Remark</span>
+                                </th>
+                                <td class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">既存のサイトデザインを使用。コーディングのみ</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Use existing site design. Coding only</span>
+                                </td>
                             </tr>
                         </table>
                     </div>
@@ -125,6 +192,7 @@
                 <div class="works-main-conts works-allegro-conts-dis-no"> <!-- rhw -->
                     <div class="works-main-left">
                         <a href="#" class="btn-sticky dis-no-top">PC</a>
+                        <a href="#" class="btn-sticky dis-no-top">smartphone</a>
                         <span class="dis-no-top">
                             <a href="#"><  </a>
                             <a href="#">● </a>
@@ -134,12 +202,14 @@
                         </span>
                         <div class="works-main-page-fix">
                             <a href="#">Allegro</a>
-                            <a href="#">RHW</a>
-                            <a href="#">Panda cafe</a>
-                            <a href="#">Banner</a>
+                            <a href="#">Rhw</a>
+                            <a href="#">P-cafe</a>
+                            <a href="#">Portfolio</a>
+                            <a href="#">Banners</a>
                         </div>
                         <img src="../img/works-rhw.png">
                         <a href="#" class="btn-sticky">PC</a>
+                        <a href="#" class="btn-sticky">smartphone</a>
                         <span>
                             <a href="#" class="dis-no-allow"><  </a>
                             <a href="#">● </a>
@@ -153,7 +223,12 @@
                         <div class="w-blank"></div>
                         <table>
                             <tr>
-                                <th>リンク</th>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">リンク</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Link</span>
+                                </th>
                                 <td>
                                     <span>
                                         <a href="#">https://github.com/mikanmatsuri</a>
@@ -161,7 +236,12 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th>Github</th>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">ギットハブ</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Github</span>
+                                </th>
                                 <td>
                                     <span>
                                         <a href="#">https://github.com/mikanmatsuri</a>
@@ -169,20 +249,57 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th>使用言語</th>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">使用言語</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Language used</span>
+                                </th>
                                 <td>HTML&CSS</td>
                             </tr>
                             <tr>
-                                <th>対応デバイス</th>
-                                <td>PC表示のみ</td>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">対応デバイス</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Device</span>
+                                </th>
+                                <td class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">PC表示のみ</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">PC display only</span>
+                                </td>
                             </tr>
                             <tr>
-                                <th>プロジェクト</th>
-                                <td>求人情報のサイト</td>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">プロジェクト</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Project</span>
+                                </th>
+                                <td class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">求人情報のサイト</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Recruitment site</span>
+                                </td>
                             </tr>
                             <tr>
-                                <th>備考</th>
-                                <td>既存のサイトデザインを使用。コーディングのみ</td>
+                                <!-- JSで言語切替を行う　※日本語ver -->
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">備考</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Remark</span>
+                                </th>
+                                <!-- JSで言語切替を行う　※日本語ver -->
+                                <td class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">既存のサイトデザインを使用。コーディングのみ</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Use existing site design. Coding only</span>
+                                </td>
                             </tr>
                         </table>
                     </div>
@@ -202,9 +319,10 @@
                         </span>
                         <div class="works-main-page-fix">
                             <a href="#">Allegro</a>
-                            <a href="#">RHW</a>
-                            <a href="#">Panda cafe</a>
-                            <a href="#">Banner</a>
+                            <a href="#">Rhw</a>
+                            <a href="#">P-cafe</a>
+                            <a href="#">Portfolio</a>
+                            <a href="#">Banners</a>
                         </div>
                         <img src="../img/works-p-cafe.png">
                         <a href="#" class="btn-sticky">PC</a>
@@ -222,7 +340,12 @@
                         <div class="w-blank"></div>
                         <table>
                             <tr>
-                                <th>リンク</th>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">リンク</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Link</span>
+                                </th>
                                 <td>
                                     <span>
                                         <a href="#">https://github.com/mikanmatsuri</a>
@@ -230,7 +353,12 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th>Github</th>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">ギットハブ</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Github</span>
+                                </th>
                                 <td>
                                     <span>
                                         <a href="#">https://github.com/mikanmatsuri</a>
@@ -238,20 +366,170 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th>使用言語</th>
-                                <td>HTML&CSS</td>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">使用言語</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Language used</span>
+                                </th>
+                                <td>HTML&CSS、Javascript</td>
                             </tr>
                             <tr>
-                                <th>対応デバイス</th>
-                                <td>PC表示のみ</td>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">対応デバイス</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Device</span>
+                                </th>
+                                <td class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">PC表示とスマートフォン表示</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">PC display and smartphone display</span>
+                                </td>
                             </tr>
                             <tr>
-                                <th>プロジェクト</th>
-                                <td>カフェのサイト</td>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">プロジェクト</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Project</span>
+                                </th>
+                                <td class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">カフェのサイト</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Cafe site</span>
+                                </td>
                             </tr>
                             <tr>
-                                <th>備考</th>
-                                <td>Photoshopでデザイン作成後、コーディング</td>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">備考</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Remark</span>
+                                </th>
+                                <td class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">Photoshopでデザイン作成後、コーディング</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Coding after design creation in Photoshop</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="works-main-conts works-allegro-conts-dis-no"> <!-- portfolio saite-->
+                    <div class="works-main-left">
+                        <a href="#" class="btn-sticky dis-no-top">PC</a>
+                        <a href="#" class="btn-sticky dis-no-top">smartphone</a>
+                        <span class="dis-no-top">
+                            <a href="#"><  </a>
+                            <a href="#">● </a>
+                            <a href="#">○ </a>
+                            <a href="#">○ </a>
+                            <a href="#">  ></a>
+                        </span>
+                        <div class="works-main-page-fix">
+                            <a href="#">Allegro</a>
+                            <a href="#">Rhw</a>
+                            <a href="#">P-cafe</a>
+                            <a href="#">Portfolio</a>
+                            <a href="#">Banners</a>
+                        </div>
+                        <img src="../img/works-portfolio-site.png">
+                        <a href="#" class="btn-sticky">PC</a>
+                        <a href="#" class="btn-sticky">smartphone</a>
+                        <span>
+                            <a href="#" class="dis-no-allow"><  </a>
+                            <a href="#">● </a>
+                            <a href="#">○ </a>
+                            <a href="#">○ </a>
+                            <a href="#" class="dis-no-allow">  ></a>
+                        </span>
+                    </div>
+                    <div class="works-main-right works-allegro-conts">
+                        <h1>Portfolio site</h1>
+                        <div class="w-blank"></div>
+                        <table>
+                            <tr>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">リンク</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Link</span>
+                                </th>
+                                <td>
+                                    <span>
+                                        <a href="#">https://github.com/mikanmatsuri</a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">ギットハブ</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Github</span>
+                                </th>
+                                <td>
+                                    <span>
+                                        <a href="#">https://github.com/mikanmatsuri</a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">使用言語</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Language used</span>
+                                </th>
+                                <td>HTML&CSS、Javascript</td>
+                            </tr>
+                            <tr>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">対応デバイス</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Device</span>
+                                </th>
+                                <td class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">PC表示とスマートフォン表示</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">PC display and smartphone display</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">プロジェクト</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Project</span>
+                                </th>
+                                <td class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">ポートフォリオサイト</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Portfolio site</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">備考</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Remark</span>
+                                </th>
+                                <td class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">Photoshopでデザイン作成後、コーディング</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Coding after design creation in Photoshop</span>
+                                </td>
                             </tr>
                         </table>
                     </div>
@@ -271,45 +549,82 @@
                         </span>
                         <div class="works-main-page-fix">
                             <a href="#">Allegro</a>
-                            <a href="#">RHW</a>
-                            <a href="#">Panda cafe</a>
-                            <a href="#">Banner</a>
+                            <a href="#">Rhw</a>
+                            <a href="#">P-cafe</a>
+                            <a href="#">Portfolio</a>
+                            <a href="#">Banners</a>
                         </div>
                         <img src="../img/banner-matome.png">
-                        <a href="#" class="btn-sticky">PC</a>
-                        <a href="#" class="btn-sticky">smartphone</a>
-                        <span>
-                            <a href="#" class="dis-no-allow"><  </a>
-                            <a href="#">● </a>
-                            <a href="#">○ </a>
-                            <a href="#">○ </a>
-                            <a href="#" class="dis-no-allow">  ></a>
-                        </span>
+                        <!--ボタン要素と画像切り替える為のコードはこの下に入れる予定-->
+
                     </div>
                     <div class="works-main-right works-allegro-conts">
-                        <h1>Banner</h1>
+                        <h1>Banners</h1>
                         <div class="w-blank"></div>
                         <table>
                             <tr>
-                                <th>使用ツール</th>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">使用ツール</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Tools used</span>
+                                </th>
                                 <td>Photoshop</td>
                             </tr>
                             <tr>
-                                <th>素材サイト</th>
-                                <td>『ICOOON MONO』、『FLAT ICON DESIGN』</td>
-                            </tr>
-                            <tr>
-                                <th>制作時間</th>
-                                <td>早いものは、40分。長くても、1時間30分ほど</td>
-                            </tr>
-                            <tr>
-                                <th>プロジェクト</th>
-                                <td>アルバイト先の会社様で運営されているサイト</td>
-                            </tr>
-                            <tr>
-                                <th>備考</th>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">素材サイト</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Material site</span>
+                                </th>
                                 <td class="space-p">
-                                    ライター様が記事に合ったテキストを後日入れられるので、空間を開けて作成しております
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">『ICOOON MONO』、『FLAT ICON DESIGN』</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">"ICOOON MONO", "FLAT ICON DESIGN"</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">制作時間</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Production time</span>
+                                </th>
+                                <td class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">早いものは、40分。長くても、1時間30分ほど</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">The early one is 40 minutes. At least 1 hour and 30 minutes</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">プロジェクト</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Project</span>
+                                </th>
+                                <td class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">アルバイト先の会社様で運営されているサイトで使用されるバナー</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">This is the banner used on the site operated by the part-time company.</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">備考</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">Remark</span>
+                                </th>
+                                <td class="space-p">
+                                    <!-- JSで言語切替を行う　※日本語ver -->
+                                    <span class="text-jp">ライター様が記事に合ったテキストを後日入れられるので、空間を開けて作成しております</span>
+                                    <!-- JSで言語切替を行う　※英語ver -->
+                                    <span class="text-en">I am creating the space so that the writer can enter the text that matches the article at a later date</span>
                                 </td>
                             </tr>
                         </table>
